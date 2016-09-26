@@ -7,7 +7,7 @@ bool verificaColuna(int n, int *p);
 bool verificaQuadrado(int n, int *p);
 
 int main() {
-	int n;
+	int n, k;
 	cin >> n;
 
 	int matriz[9*n][9*n], *p;
